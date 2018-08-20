@@ -15,15 +15,11 @@
             autocomplete="off" autocorrect="off" autocapitalize="off" :before="[{icon: 'lock', handler () {}}]" @keyup.enter="login(userData)" />
             </div>
 
-            <!-- <div class="q-mt-md">
-            <q-btn color="white" flat rounded  class="full-width" label="Esqueci minha senha" size="sm" @click="recuperaSenha(userData)" ></q-btn>
-            </div> -->
-
             <div class="q-mt-sm">
             <q-btn color="negative" glossy class="full-width" label="Entrar" size="lg" @click="goToPage()" :loading="loading">
             <span slot="loading">
                 <q-spinner-hourglass class="on-left" />
-                Carregando...
+                Loading...
             </span>
             </q-btn>
             </div>
