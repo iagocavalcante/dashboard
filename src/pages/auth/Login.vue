@@ -6,17 +6,17 @@
             </div>
 
             <div class="q-mt-md">
-            <q-input v-model="userData.email"  inverted color="dark" type="email" float-label="Login"
+            <q-input v-model="userData.email" color="primary" type="email" float-label="Login"
             autocomplete="off" autocorrect="off" autocapitalize="off" :before="[{icon: 'person', handler () {}}]"  />
             </div>
 
             <div class="q-mt-md">
-            <q-input v-model="userData.password" inverted color="dark" type="password" float-label="Senha"
+            <q-input v-model="userData.password" color="primary" type="password" float-label="Senha"
             autocomplete="off" autocorrect="off" autocapitalize="off" :before="[{icon: 'lock', handler () {}}]" @keyup.enter="login(userData)" />
             </div>
 
             <div class="q-mt-sm">
-            <q-btn color="negative" glossy class="full-width" label="Entrar" size="lg" @click="goToPage()" :loading="loading">
+            <q-btn color="primary" class="full-width" label="Entrar" size="lg" @click="goToPage()" :loading="loading">
             <span slot="loading">
                 <q-spinner-hourglass class="on-left" />
                 Loading...

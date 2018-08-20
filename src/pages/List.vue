@@ -2,7 +2,7 @@
   <q-page class="row gutter-sm q-pa-lg">
     <div class="col-12" >
       <q-table
-        title="Table Title"
+        title="List of Products"
         :data="tableData"
         :columns="columns"
         row-key="name"

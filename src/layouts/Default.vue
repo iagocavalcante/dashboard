@@ -2,9 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-layout-header>
       <q-toolbar
-        color="black"
-        :glossy="$q.theme === 'mat'"
-        :inverted="$q.theme === 'ios'"
+        color="primary"
       >
         <q-btn
           flat

@@ -11,7 +11,7 @@
 display: none;
 }
 .img-background{
-  background: #fff url(https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74450f7cf15b30e723c1a6d49abcc62c&auto=format&fit=crop&w=750&q=80);
+  background: #fff;
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
