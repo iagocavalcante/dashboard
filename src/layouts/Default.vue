@@ -52,9 +52,13 @@
           <q-item-side icon="dashboard" />
           <q-item-main label="Dashboard" sublabel="List of Modules" />
         </q-item>
-        <q-item to="/dashboard/list" >
+        <q-item to="/dashboard/list-pj" >
           <q-item-side icon="table_chart" />
-          <q-item-main label="List" sublabel="List data from api" />
+          <q-item-main label="Cliente PJ" sublabel="Listar clientes PJ" />
+        </q-item>
+        <q-item to="/dashboard/list-pf" >
+          <q-item-side icon="table_chart" />
+          <q-item-main label="Cliente PF" sublabel="Listar clientes PF" />
         </q-item>
       </q-list>
     </q-layout-drawer>

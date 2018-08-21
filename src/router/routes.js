@@ -12,7 +12,10 @@ const routes = [
     component: () => import('layouts/Default.vue'),
     children: [
       { path: '', component: () => import('pages/Dashboard.vue') },
-      { path: 'list', component: () => import('pages/List.vue') }
+      { path: 'list-pj', component: () => import('pages/client-pj/List.vue') },
+      { path: 'create-pj', component: () => import('pages/client-pj/Client.vue') },
+      { path: 'list-pf', component: () => import('pages/client-pf/List.vue') },
+      { path: 'create-pf', component: () => import('pages/client-pf/Client.vue') }
     ]
   }
 ]

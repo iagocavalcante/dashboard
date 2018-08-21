@@ -5,7 +5,10 @@ module.exports = function (ctx) {
     // app plugins (/src/plugins)
     plugins: [
       'i18n',
-      'axios'
+      'axios',
+      'firestore',
+      'vuelidate',
+      'vue-the-mask'
     ],
     css: [
       'app.styl'
