@@ -1,4 +1,5 @@
 # Dashboard Sample
+[![BCH compliance](https://bettercodehub.com/edge/badge/iagocavalcante/dashboard?branch=master)](https://bettercodehub.com/)
 
 > This is a sample with quasar, to show login page and dashboard page responsive
 
