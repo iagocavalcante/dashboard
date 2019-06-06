@@ -26,7 +26,7 @@
     "eslint-plugin-import": "2.17.3",
     "eslint-plugin-node": "9.1.0",
     "eslint-plugin-promise": "3.8.0",
-    "eslint-plugin-standard": "3.1.0",
+    "eslint-plugin-standard": "4.0.0",
     "eslint-plugin-vue": "4.7.1",
     "lodash": "4.17.11",
     "quasar-cli": "0.17.25",
