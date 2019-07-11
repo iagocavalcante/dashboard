@@ -4413,7 +4413,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash._reinterpolate@~3.0.0:
+lodash._reinterpolate@^3.0.0, lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
 
@@ -4449,7 +4449,14 @@ lodash.snakecase@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
 
-lodash.template@4.4.0, lodash.template@^4.4.0:
+lodash.template@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
+  dependencies:
+    lodash._reinterpolate "^3.0.0"
+    lodash.templatesettings "^4.0.0"
+
+lodash.template@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.4.0.tgz#e73a0385c8355591746e020b99679c690e68fba0"
   dependencies:
@@ -5866,9 +5873,9 @@ qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
 
-quasar-cli@0.17.25:
-  version "0.17.25"
-  resolved "https://registry.yarnpkg.com/quasar-cli/-/quasar-cli-0.17.25.tgz#d739559c58ad5f2a4c40752522d582b94f396295"
+quasar-cli@0.17.26:
+  version "0.17.26"
+  resolved "https://registry.yarnpkg.com/quasar-cli/-/quasar-cli-0.17.26.tgz#536d4c535062db911976bb70112fde2e7ff979dc"
   dependencies:
     "@babel/core" "7.0.0-beta.54"
     "@babel/plugin-transform-runtime" "7.0.0-beta.54"
@@ -5901,7 +5908,7 @@ quasar-cli@0.17.25:
     import-local-file "0.2.0"
     inquirer "6.2.0"
     lodash.debounce "4.0.8"
-    lodash.template "4.4.0"
+    lodash.template "4.5.0"
     lodash.throttle "4.1.1"
     log-update "2.3.0"
     lru-cache "4.1.3"
