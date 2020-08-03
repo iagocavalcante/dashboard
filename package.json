@@ -18,7 +18,7 @@
     "vuelidate": "0.7.5"
   },
   "devDependencies": {
-    "babel-eslint": "10.0.3",
+    "babel-eslint": "10.1.0",
     "eslint": "7.6.0",
     "eslint-config-standard": "14.1.0",
     "eslint-friendly-formatter": "4.0.1",
