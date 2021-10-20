@@ -30,7 +30,7 @@
     "eslint-plugin-vue": "6.2.1",
     "lodash": "4.17.19",
     "quasar-cli": "0.17.26",
-    "strip-ansi": "6.0.0"
+    "strip-ansi": "6.0.1"
   },
   "engines": {
     "node": ">= 8.9.0",
