@@ -1,0 +1,45 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard sample to show the beauty of Quasar",
+  "productName": "Dashboard Sample",
+  "cordovaId": "br.com.iagocavalcante.dashboard",
+  "author": "Iago Cavalcante <iagoangelimc@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "firebase": "7.8.2",
+    "vue-i18n": "8.15.3",
+    "vue-the-mask": "0.11.1",
+    "vuelidate": "0.7.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "7.6.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "3.0.3",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "eslint-plugin-vue": "6.2.1",
+    "lodash": "4.17.19",
+    "quasar-cli": "0.17.26",
+    "strip-ansi": "6.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}

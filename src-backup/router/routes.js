@@ -4,7 +4,7 @@ const routes = [
     path: '/',
     component: () => import('layouts/Login.vue'),
     children: [
-      { path: '', component: () => import('pages/auth/Login.vue') }
+      { path: '', component: () => import('pages/auth/Login') }
     ]
   },
   {
@@ -23,7 +23,7 @@ const routes = [
 // Always leave this as last one
 if (process.env.MODE !== 'ssr') {
   routes.push({
-    path: '/:catchAll(.*)*',
+    path: '*',
     component: () => import('pages/Error404.vue')
   })
 }

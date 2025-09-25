@@ -7,39 +7,42 @@
   "author": "Iago Cavalcante <iagoangelimc@gmail.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.vue src",
-    "test": "echo \"No test specified\" && exit 0"
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "clean": "quasar clean"
   },
   "dependencies": {
-    "axios": "0.19.2",
-    "firebase": "7.8.2",
-    "vue-i18n": "8.15.3",
-    "vue-the-mask": "0.11.1",
-    "vuelidate": "0.7.5"
+    "@quasar/extras": "^1.17.0",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.7.7",
+    "firebase": "^10.13.2",
+    "pinia": "^2.2.2",
+    "quasar": "^2.18.5",
+    "vue": "^3.5.8",
+    "vue-i18n": "^10.0.3",
+    "vue-router": "^4.4.5",
+    "vue-the-mask": "^0.11.1"
   },
   "devDependencies": {
-    "babel-eslint": "10.0.3",
-    "eslint": "7.6.0",
-    "eslint-config-standard": "14.1.0",
-    "eslint-friendly-formatter": "4.0.1",
-    "eslint-loader": "3.0.3",
-    "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-node": "11.0.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.1",
-    "eslint-plugin-vue": "6.2.1",
-    "lodash": "4.17.19",
-    "quasar-cli": "0.17.26",
-    "strip-ansi": "6.0.0"
+    "@quasar/app-vite": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "prettier": "^3.3.3",
+    "typescript": "~5.5.4",
+    "vite-plugin-checker": "^0.8.0",
+    "vue-tsc": "^2.1.6"
   },
   "engines": {
-    "node": ">= 8.9.0",
-    "npm": ">= 5.6.0",
-    "yarn": ">= 1.6.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 10"
-  ]
+    "node": "^20 || ^22 || ^24",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
 }
