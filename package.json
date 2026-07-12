@@ -20,7 +20,7 @@
     "@vuelidate/validators": "^2.0.4",
     "axios": "^1.7.7",
     "firebase": "^10.13.2",
-    "pinia": "^2.2.2",
+    "pinia": "^3.0.0",
     "quasar": "^2.18.5",
     "vue": "^3.5.8",
     "vue-i18n": "^10.0.3",
